@@ -1,0 +1,42 @@
+table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+table tr th {
+    text-align: left;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+table tr th:nth-child(1) {
+    width: 80px;
+}
+
+table tr th:nth-child(2) {
+    width: 300px;
+}
+
+table tr th:nth-child(3) {
+    width: 100px;
+}
+
+table tr th:nth-child(4) {
+    width: 200px;
+}
+
+table tr th:nth-child(5) {
+    width: 200px;
+}
+
+table tr:nth-child(1){
+    background-color: #414141;
+}
+
+.table-data {
+    background-color: #292929;
+    padding: 10px 0px;
+}

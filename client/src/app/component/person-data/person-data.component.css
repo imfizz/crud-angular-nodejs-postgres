@@ -1,0 +1,51 @@
+tr {
+    background-color: #292929;
+}
+
+tr td {
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    padding: 0 20px;
+}
+
+tr td:nth-child(1) {
+    width: 80px;
+}
+
+tr td:nth-child(2) {
+    width: 300px;
+}
+
+tr td:nth-child(3) {
+    width: 100px;
+}
+
+tr td:nth-child(4) {
+    width: 200px;
+}
+
+tr td:nth-child(5) {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+tr td .edit-icon {
+    color: #61B653;
+    cursor: pointer;
+}
+
+tr td .edit-icon:hover {
+    color: #74ca67;
+}
+
+tr td .delete-icon {
+    color: #CF4B4B;
+    cursor: pointer;
+}
+
+tr td .delete-icon:hover {
+    color: #e25d5d;
+}

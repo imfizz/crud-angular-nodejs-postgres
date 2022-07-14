@@ -1,0 +1,15 @@
+<form *ngIf="showAddPerson" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" name="name" [(ngModel)]="name" id="name" autocomplete="off"  placeholder="What is your name?" />
+    </div>
+    <div class="form-control">
+        <label for="age">Age</label>
+        <input type="number" name="age" [(ngModel)]="age" id="age" autocomplete="off"  placeholder="How old are you?" />
+    </div>
+    <div class="form-control">
+        <label for="gender">Gender</label>
+        <input type="text" name="gender" [(ngModel)]="gender" id="gender" autocomplete="off"  placeholder="What is your gender?" />
+    </div>
+    <input type="submit" value="Add Person" class="btn btn-block">
+</form>

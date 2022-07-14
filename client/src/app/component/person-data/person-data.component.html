@@ -1,0 +1,20 @@
+<tr>
+    <td>{{person.id}}</td>
+    <td>{{person.name}}</td>
+    <td>{{person.age}}</td>
+    <td>{{person.gender}}</td>
+    <td>
+        <a routerLink="/Update/{{person.id}}/{{person.name}}/{{person.age}}/{{person.gender}}">
+            <fa-icon 
+                [icon]="faPen"
+                class="edit-icon"
+            ></fa-icon>
+        </a>
+        
+        <fa-icon 
+            [icon]="faTrash"
+            (click)="onDelete(person)"
+            class="delete-icon"
+            ></fa-icon>
+    </td>
+</tr>

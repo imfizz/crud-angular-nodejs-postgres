@@ -1,0 +1,17 @@
+<app-add-person (onAddPerson)="addPerson($event)"></app-add-person>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Action</th>
+    </tr>
+    <app-person-data 
+        class="table-data" 
+        *ngFor="let person of persons" 
+        [person]="person"
+        (onDeletePerson)="deletePerson(person)"
+        >
+    </app-person-data>
+</table>

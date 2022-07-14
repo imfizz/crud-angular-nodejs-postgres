@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    background-color: #1E1E1E;
+    padding: 100px 50px;
+    margin: 0 auto;
+}
+
